@@ -116,7 +116,7 @@ function Library:SetupAboutUs(AboutUs)
 		Title = "Discord Link (Click to Copy)",
 		Icon = "link",
 		Callback = function()
-			setclipboard("")
+			setclipboard("https://discord.gg/vTTehBVWg6")
 			Library:Notify({ Title = "Copied!", Content = "Discord link copied!", Duration = 3 })
 		end,
 	})
